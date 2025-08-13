@@ -1,0 +1,62 @@
+{
+  "range": "2025-01-01..2025-01-30",
+  "kpis": {
+    "totalUsers": 12450,
+    "activeUsers": 3120,
+    "sessions": 18900,
+    "conversion": 3.7,
+    "deltas": {
+      "totalUsers": 5.1,
+      "activeUsers": -1.2,
+      "sessions": 2.3,
+      "conversion": 0.4
+    }
+  },
+  "timeseries": [
+    { "date": "2025-01-01", "dau": 320 },
+    { "date": "2025-01-02", "dau": 305 },
+    { "date": "2025-01-03", "dau": 285 },
+    { "date": "2025-01-04", "dau": 310 },
+    { "date": "2025-01-05", "dau": 295 },
+    { "date": "2025-01-06", "dau": 340 },
+    { "date": "2025-01-07", "dau": 355 },
+    { "date": "2025-01-08", "dau": 330 },
+    { "date": "2025-01-09", "dau": 315 },
+    { "date": "2025-01-10", "dau": 325 },
+    { "date": "2025-01-11", "dau": 345 },
+    { "date": "2025-01-12", "dau": 360 },
+    { "date": "2025-01-13", "dau": 375 },
+    { "date": "2025-01-14", "dau": 350 },
+    { "date": "2025-01-15", "dau": 365 },
+    { "date": "2025-01-16", "dau": 380 },
+    { "date": "2025-01-17", "dau": 395 },
+    { "date": "2025-01-18", "dau": 385 },
+    { "date": "2025-01-19", "dau": 370 },
+    { "date": "2025-01-20", "dau": 390 },
+    { "date": "2025-01-21", "dau": 405 },
+    { "date": "2025-01-22", "dau": 420 },
+    { "date": "2025-01-23", "dau": 410 },
+    { "date": "2025-01-24", "dau": 425 },
+    { "date": "2025-01-25", "dau": 440 },
+    { "date": "2025-01-26", "dau": 435 },
+    { "date": "2025-01-27", "dau": 450 },
+    { "date": "2025-01-28", "dau": 465 },
+    { "date": "2025-01-29", "dau": 455 },
+    { "date": "2025-01-30", "dau": 470 }
+  ],
+  "sources": [
+    { "name": "Direct", "sessions": 5200 },
+    { "name": "Organic", "sessions": 4700 },
+    { "name": "Paid", "sessions": 3600 },
+    { "name": "Referral", "sessions": 2100 },
+    { "name": "Social", "sessions": 1300 }
+  ],
+  "pages": [
+    { "path": "/", "views": 8200, "avgTime": 72, "bounce": 0.42 },
+    { "path": "/pricing", "views": 3100, "avgTime": 51, "bounce": 0.48 },
+    { "path": "/docs", "views": 2600, "avgTime": 180, "bounce": 0.31 },
+    { "path": "/features", "views": 2100, "avgTime": 95, "bounce": 0.38 },
+    { "path": "/about", "views": 1800, "avgTime": 65, "bounce": 0.45 },
+    { "path": "/contact", "views": 1200, "avgTime": 45, "bounce": 0.52 }
+  ]
+}
